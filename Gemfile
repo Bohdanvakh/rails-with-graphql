@@ -12,6 +12,7 @@ gem "sprockets-rails"
 gem "pg", "~> 1.1"
 
 gem 'graphql', '~> 2.2', '>= 2.2.5'
+gem 'graphiql-rails', '~> 1.4', '>= 1.4.8'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
@@ -69,4 +70,3 @@ group :development do
 
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
 end
-gem "graphiql-rails", group: :development

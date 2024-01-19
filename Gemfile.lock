@@ -243,7 +243,7 @@ DEPENDENCIES
   dotenv-rails (~> 2.1, >= 2.1.1)
   error_highlight (>= 0.4.0)
   faker (~> 3.2)
-  graphiql-rails
+  graphiql-rails (~> 1.4, >= 1.4.8)
   graphql (~> 2.2, >= 2.2.5)
   importmap-rails
   jbuilder
