@@ -54,7 +54,7 @@ group :development, :test do
 
   gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
 
-  gem 'faker', '~> 1.6', '>= 1.6.6'
+  gem 'faker', '~> 3.2'
 end
 
 group :development do
