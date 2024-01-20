@@ -76,6 +76,7 @@ GEM
       mutex_m
       tzinfo (~> 2.0)
     base64 (0.2.0)
+    bcrypt (3.1.20)
     bigdecimal (3.1.6)
     bindex (0.8.1)
     bootsnap (1.17.1)
@@ -119,6 +120,7 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
+    jwt (1.5.6)
     loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -238,6 +240,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  bcrypt (~> 3.1.7)
   bootsnap
   debug
   dotenv-rails (~> 2.1, >= 2.1.1)
@@ -247,6 +250,7 @@ DEPENDENCIES
   graphql (~> 2.2, >= 2.2.5)
   importmap-rails
   jbuilder
+  jwt (~> 1.5, >= 1.5.4)
   pg (~> 1.1)
   pry-rails (~> 0.3.9)
   puma (>= 5.0)
